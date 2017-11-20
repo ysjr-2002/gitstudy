@@ -8,9 +8,13 @@
         Width="525"
         Height="350"
         mc:Ignorable="d">
-    <Grid>
+    <StackPanel>
         <Button Width="200"
                 Height="34"
                 Content="主分支" />
-    </Grid>
+
+        <Button Width="200"
+                Height="34"
+                Content="我在分支上修改了主分支" />
+    </StackPanel>
 </Window>
